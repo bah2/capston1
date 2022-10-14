@@ -5,17 +5,435 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <title>Capstone_w2</title>
-    <a href="index.html">Home</a>
-    <a href="registration.html">Sign up</a>
-    <a href="login.html">Login in</a>
-    <a href="product.html">Product</a>
-    <a href="cart.html">Cart</a>
-    <a href="checkout.html">Check out</a>
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+     crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+<title>Capstone_w2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <a href="index.html" class="mt-4 m-2 text-bg-primary" >Return Home</a>
+
+  
+    <section>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Cell Dynamics</a>
+          <button class=" navbar-toggler" type="button" data-bs-toggle ="collapse" data-bs-target ="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+    
+    
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <!-- what do you want to buy -->
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <!-- what do you want to buy -->
+                <a href="signin.html" class="nav-link">Sing in</a>
+              </li>
+              <li class="nav-item">
+                <!-- what do you want to buy -->
+                <a href="product.html" class="nav-link">Products</a>
+              </li>
+    
+              <li class="nav-item">
+                <!-- what do you want to buy -->
+                <a href="addtocart.html" class="nav-link">Cart</a>
+              </li>
+    
+              <li class="nav-item">
+                <!-- what do you want to buy -->
+                <a href="checkout.html" class="nav-link">Checkout</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </head>
+  <body>
+    
+
+    <section style="background:#1e1f26;">
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone 14 pro max" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 14 pro max</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $1,099</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.7″</span>
+                      <span>Super Retina XDR display</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">—</li>
+                        <li>Weight</li>
+                        <li>8.47 ounces (240grams)</li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1TB</span>
+                      <span style="color: transparent;">0</span>
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone 14 Pro" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 14 Pro</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $999</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.1″</span>
+                      <span>Super Retina XDR display</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Weight</li>
+                        <li>7.27 ounces (206 grams)</li>
+                        <li aria-hidden="true">—</li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">128GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1tB</span>
+                      
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 11 Pro</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $599</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.8″</span>
+                      <span>Dynamic Amoled 2x</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Weight</li>
+                        <li>8.04 ounces (228 grams)</li>
+                        <li></li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">128GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1TB</span>
+                     
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 11 Pro</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $599</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.8″</span>
+                      <span>Dynamic Amoled 2x</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Weight</li>
+                        <li>8.04 ounces (228 grams)</li>
+                        <li></li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">128GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1TB</span>
+                     
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- added product  -->
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 11 Pro</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $599</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.8″</span>
+                      <span>Dynamic Amoled 2x</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Weight</li>
+                        <li>8.04 ounces (228 grams)</li>
+                        <li></li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">128GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1TB</span>
+                     
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+                  class="card-img-top" alt="iPhone" />
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">iPhone 11 Pro</h4>
+                    <h6 class="text-primary mb-1 pb-3">Starting at $599</h6>
+                  </div>
+      
+                  <div class="text-center">
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">showroom</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.8″</span>
+                      <span>Dynamic Amoled 2x</span>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Weight</li>
+                        <li>8.04 ounces (228 grams)</li>
+                        <li></li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">3x</span>
+                      <span>Optical zoom range</span>
+                    </div>
+      
+                    <div class="p-3 mx-n3 mb-4" style="background-color: #eff1f2;">
+                      <h5 class="mb-0">Capacity</h5>
+                    </div>
+      
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">128GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span class="mb-2">512GB</span>
+                      <span class="mb-2">1TB</span>
+                     
+                    </div>
+                  </div>
+      
+                  <div class="d-flex flex-row">
+                    <button type="button" class="btn btn-dark flex-fill me-1" data-mdb-ripple-color="dark">
+                      Learn more
+                    </button>
+                    <button type="button" class="btn btn-secondary flex-fill ms-1">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+  <!-- footer -->
+<footer class="p-5 bg-dark text-white text-center position-relative">
+  <div class="container">
+    <p class="lead">
+      Copyright &copy;2022 YearUp Appdev Capstone_week_2 LCJ_Ibh
+
+  </div>
+</footer>
     
 </body>
 </html>

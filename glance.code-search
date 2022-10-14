@@ -1,0 +1,26 @@
+# Query: glance
+# ContextLines: 1
+
+6 results - 2 files
+
+index.html:
+  167  <!-- goods ad -->
+  168: <section id="#" class="p-5">
+  169    <div class="container">
+
+  192  
+  193: <section id="#" class="p-5 bg-dark text-light">
+  194    <div class="container">
+
+save.html:
+   28              <!-- what do you want to buy -->
+   29:             <a href="##" class="nav-link">#</a>
+   30            </li>
+
+  148  <!-- goods ad -->
+  149: <section id="#" class="p-5">
+  150    <div class="container">
+
+  173  
+  174: <section id="#" class="p-5 bg-dark text-light">
+  175    <div class="container">
